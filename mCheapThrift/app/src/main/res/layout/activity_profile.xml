@@ -7,6 +7,17 @@
     tools:context=".profile"
     android:background="@color/graylight"
     android:orientation="vertical">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/gradientbackground"
+        android:text="Logout" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="405dp">
